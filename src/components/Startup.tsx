@@ -51,7 +51,7 @@ export default function StartupAccelerator() {
       id: 4,
       front: image4,
       back: backImage4,
-      title: "Get Funded",
+      title: "Connect",
       description:
         "Compete for angel investments with up to $100K in funding opportunities over two seasonal batches per year",
     },
@@ -137,10 +137,14 @@ export default function StartupAccelerator() {
   }}
   className="py-12 px-6 sm:px-10 flex flex-col-reverse lg:flex-row items-center lg:items-start gap-10"
 >
-  {/* Right Side: Group 53 Image (Appears First on Mobile) */}
-  <div className="w-full lg:w-1/2 flex justify-center">
-    <img src={group53} alt="Comprehensive Package Details" className="w-full max-w-sm sm:max-w-md lg:max-w-full" />
-  </div>
+<div className="w-full lg:w-1/2 flex justify-center">
+  <img 
+    src={group53} 
+    alt="Comprehensive Package Details" 
+    className="w-full max-w-xs h-40 sm:max-w-sm sm:h-52 md:max-w-md md:h-60 lg:max-w-lg lg:h-72"
+  />
+</div>
+
 
   {/* Left Side: Styled Text-Based Content */}
   <div className="w-full lg:w-1/2 text-center lg:text-left">

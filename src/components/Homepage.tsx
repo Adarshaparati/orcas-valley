@@ -9,6 +9,7 @@ import image2 from '../../src/assets/image2.png'
 import image3 from '../../src/assets/image3.png'
 import image4 from '../../src/assets/image4.png'
 import image5 from '../../src/assets/image5.png'
+import group4 from '../../src/assets/Group 4.png'
 import vectorLeft1 from '../../src/assets/vector-left-1.png'
 import vectorLeft2 from '../../src/assets/vector-left-2.png'
 import vectorLeft3 from '../../src/assets/vector-left-3.png'
@@ -143,6 +144,7 @@ const Homepage: React.FC = () => {
 
   {/* Content Box */}
   <h2 className="relative text-[24px] md:text-[26px] font-light text-gray-900 leading-relaxed max-w-3xl z-10">
+  <img src={group4} alt="Decorative Icon" className="w-6 h-6 md:w-8 md:h-8 mt-1 " />
   <span className="ml-16 font-light">The Orcas Valley is a comprehensive platform designed to</span>
   <div className="inline-block text-left ">
      empower 
@@ -207,7 +209,7 @@ const Homepage: React.FC = () => {
           />
 
           {/* Text Content */}
-          <div className="relative z-10 p-3 sm:p-4 text-white font-light">
+          <div className="relative z-10 p-3 sm:p-4 text-gray-700 font-light">
             <h3 className="text-lg sm:text-xl font-normal mb-1 sm:mb-2">{benefit.title}</h3>
             <p className="text-xs sm:text-sm mt-2 sm:mt-4">{benefit.description}</p>
           </div>
@@ -243,7 +245,7 @@ const Homepage: React.FC = () => {
 
       {/* Text Centered */}
       <div className="absolute inset-0 flex items-center justify-center px-6 md:px-16 text-center z-10">
-        <p className="text-gray-800 text-xs lg:text-sm md:text-base font-light mb-8 md:mb-12">
+        <p className="text-gray-800 text-sm lg:text-sm md:text-base font-light mb-8 md:mb-12">
           We offer unmatched resources to help even the<br/> most inexperienced entrepreneurs and founders the <br/>world over.
         </p>
       </div>
@@ -273,7 +275,7 @@ const Homepage: React.FC = () => {
 
       {/* Text Centered */}
       <div className="absolute inset-0 flex items-center justify-center px-6 md:px-16 text-center z-10">
-        <p className="text-gray-800 text-xs lg:text-sm md:text-base font-light mb-8 md:mb-12">
+        <p className="text-gray-800 text-sm lg:text-sm md:text-base font-light mb-8 md:mb-12">
           We support founders from the early stages of their startup throughout their journey to becoming established entrepreneurs with guidance, funding, & <br/>everything in between.
         </p>
       </div>
