@@ -45,9 +45,9 @@ const AboutUs = () => {
   </div>
 
   {/* Vertical Text - Positioned at Top Left */}
-  <div className="absolute top-6 sm:top-10 left-6 sm:left-10 z-20 px-3 sm:px-5 flex flex-col items-center text-gray-300 text-xs sm:text-lg tracking-widest">
+  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
     <div className="border-l-2 border-gray-300 h-8 sm:h-10 mb-2"></div>
-    <p className="flex flex-col text-center">
+    <p className="flex flex-col text-center text-xs">
       <span>T</span>
       <span>H</span>
       <span>E</span>
@@ -104,7 +104,7 @@ const AboutUs = () => {
 </section>
 
 {/* Unique Section */}
-<section className="relative text-white h-auto sm:h-[85vh] w-full flex flex-col-reverse sm:flex-row items-center justify-end py-12 px-6 sm:px-16">
+<section className="relative text-white h-auto sm:h-[85vh] w-full flex flex-col sm:flex-row items-center justify-end py-12 px-6 sm:px-16">
   {/* Background Image */}
   <img 
     src={unique} 
@@ -113,7 +113,7 @@ const AboutUs = () => {
   />
 
   {/* Content Overlay (Positioned Right) */}
-  <div className="relative z-10 max-w-lg text-center sm:text-left px-4 sm:pr-20">
+  <div className="relative z-10 max-w-lg text-right sm:text-left px-4 sm:pr-20 lg:mr-16 md:mr-4 ">
     <h2 className="text-3xl sm:text-4xl font-light">
       What Makes Us<br/> <span className="text-[#02C4A1]">Unique?</span>
     </h2>
@@ -123,7 +123,8 @@ const AboutUs = () => {
       leave founders at a disadvantage. Our comprehensive platform provides startup 
       resources—from The Orca Blueprint eBook and AI-powered pitch deck generator to access 
       to investors—all designed to help founders learn, pitch, and secure funding without losing 
-      control of their vision or jeopardizing it.
+      control of their vision or jeopardizing it.Traditional accelerators are intimidating, equity-intensive, and often out of reach.
+      We built Orcas Valley to remove those barriers—no equity, no unnecessary stress, just practical support
     </p>
   </div>
 </section>
@@ -186,7 +187,7 @@ const AboutUs = () => {
         like our AI-powered pitch deck generator and personalized feedback loops.
       </div>
       <img src="imageE.png" className="rounded-xl w-full" alt="Team Member E" />
-      <img src="imageF.png" className="rounded-xl w-full" alt="Team Member F" />
+      <img src="ImageF (1).jpg" className="rounded-xl w-full" alt="Team Member F" />
     </div>
 
     {/* Column 4 */}

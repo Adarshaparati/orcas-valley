@@ -89,9 +89,9 @@ const Homepage: React.FC = () => {
       <div className="absolute inset-0 bg-white bg-opacity-10 rounded-xl"></div>
 
       {/* Vertical Text */}
-      <div className="absolute top-6 md:top-10 left-6 md:left-10 z-20 flex flex-col items-center text-gray-300 text-sm md:text-lg tracking-widest">
+      <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
         <div className="border-l-2 border-gray-300 h-8 md:h-10 mb-2"></div>
-        <p className="flex flex-col text-center text-xs md:text-sm">
+        <p className="flex flex-col text-center text-xs ">
           <span>T</span><span>H</span><span>E</span><br />
           <span>O</span><span>R</span><span>C</span><span>A</span><span>S</span><br />
           <span>W</span><span>A</span><span>Y</span>
@@ -147,14 +147,25 @@ const Homepage: React.FC = () => {
   <img src={group4} alt="Decorative Icon" className="w-6 h-6 md:w-8 md:h-8 mt-1 " />
   <span className="ml-16 font-light">The Orcas Valley is a comprehensive platform designed to</span>
   <div className="inline-block text-left ">
-     empower 
+     {/* empower 
     <span className="text-[#02C4A1] font-light"> early-stage startups and entrepreneurs.</span>
     Through resources like The Orca Blueprint: The Art of Building and Scaling Your Startup, 
     our AI-powered pitch deck generator, and connections with angel investors, we provide an 
     <span className="text-[#02C4A1] font-light"> all-in-one package</span> to help founders transform their ideas into 
-    <span className="font-light"> successful ventures.</span>
+    <span className="font-light"> successful ventures.</span> */}
+    The Orcas Valley is a comprehensive platform designed specifically for first-time founders and aspiring entrepreneurs. No experience? No problem. We provide clear, step-by-step guidance to transform your ideas into successful startups.
+    Our resources include The Orca Blueprint: The Art of Building and Scaling Your Startup, an AI-powered pitch deck generator, competitive angel investment opportunities, and access to an extensive network of angel investors ready to support your growth
+    <div className="flex justify-end w-[80%]">
+    <img src={group4} alt="Decorative Icon" className="w-6 h-6 md:w-8 md:h-8  " />
+    </div>
+   
   </div>
 </h2>
+{/* <img 
+    src={ellipse1}
+    alt="Right Gradient Patch" 
+    className="absolute left-[-50px] top-[-10%] w-[420px] opacity-80 blur-xl scale-x-[-1]"
+  /> */}
 
 
   {/* Button */}

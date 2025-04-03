@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit', 
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
@@ -11,6 +12,9 @@ module.exports = {
         track: {
           background: 'transparent',
         },
+      },
+      screens: {
+        xs: "320px",
       },
     },
   },

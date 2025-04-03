@@ -30,7 +30,7 @@ const TermsAndConditions = () => {
   </div>
 
   {/* Side Text (Vertical) */}
-  <div className="absolute top-5 sm:top-10 left-7 sm:left-10 z-20 flex flex-col items-center text-gray-300 text-sm sm:text-lg tracking-widest">
+  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
     <div className="border-l-2 border-gray-300 h-8 sm:h-10 mb-2"></div>
     <p className="flex flex-col text-center text-[10px] sm:text-xs">
       <span>T</span>
@@ -154,12 +154,18 @@ dispute within this period waives the User’s right to contest the matter.</spa
       </p>
       
       <p className="mb-2">
-        <span className="font-light">6.2</span> <span className="font-light"> The Orcas Valley makes no representation or warranty regarding the accuracy, reliability, or completeness of feedback, scoring, or any information provided.</span> 
+        <span className="font-light">6.2</span> <span className="font-light"> The Orcas Valley makes no representation or warranty regarding the accuracy, reliability, or completeness of feedback, scoring, or any information provided.No equity is required or taken when joining or accessing our resources. Equity terms apply only if your startup successfully secures angel investment funding through our competitions</span> 
         
       </p>
+      <p className="mb-2">
+      <span className="font-light">6.3</span><span className="font-light"> The User acknowledges that all business, investment, and operational decisions are made independently, and The Orcas Valley is not liable for any losses or damages incurred. No equity is required or taken when joining or accessing our resources. Equity terms apply only if your startup successfully secures angel investment funding through our competitions</span> 
+      </p>
+      <p  className="mb-2">
+      <span className="font-light">6.4</span><span className="font-light">   The Orcas Valley is not responsible for the User’s inability to access or use the services due to technical issues, such as device compatibility, inadequate internet connection, or failure to meet platform requirements.</span> 
+
+      </p>
       <p className="mb-6">
-        <span className="font-light">6.3</span><span className="font-light"> The User acknowledges that all business, investment, and operational decisions are made independently, and The Orcas Valley is not liable for any losses or damages incurred.</span> 
-<span className="font-light">6.4</span><span className="font-light">   The Orcas Valley is not responsible for the User’s inability to access or use the services due to technical issues, such as device compatibility, inadequate internet connection, or failure to meet platform requirements.</span> 
+      
 <span className="font-light">6.5</span><span className="font-light">  The Orcas Valley shall not be liable for any indirect, incidental, or consequential damages resulting from service interruptions, unavailability, or any perceived failure of the services to meet the User’s expectations.</span> 
       </p>
       <h2 className="text-lg font-semibold mb-2"> 7.Limitation of Liability</h2>
