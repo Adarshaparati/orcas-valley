@@ -35,7 +35,7 @@ const Homepage: React.FC = () => {
       back: backImage1,
       title: "Learn",
       description:
-        "Gain insight through our eBook: The Orca Blueprint. (Optional: Button that links to the introduction of the eBook)",
+        "Gain insight through our eBook: The Orca Blueprint.",
     },
     {
       id: 2,
@@ -89,7 +89,7 @@ const Homepage: React.FC = () => {
       <div className="absolute inset-0 bg-white bg-opacity-10 rounded-xl"></div>
 
       {/* Vertical Text */}
-      <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+      <div className="absolute top-6 left-6 sm:top-10  xs:left-2 sm:left-10 md:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
         <div className="border-l-2 border-gray-300 h-8 md:h-10 mb-2"></div>
         <p className="flex flex-col text-center text-xs ">
           <span>T</span><span>H</span><span>E</span><br />
@@ -145,7 +145,7 @@ const Homepage: React.FC = () => {
   {/* Content Box */}
   <h2 className="relative text-[24px] md:text-[26px] font-light text-gray-900 leading-relaxed max-w-3xl z-10">
   <img src={group4} alt="Decorative Icon" className="w-6 h-6 md:w-8 md:h-8 mt-1 " />
-  <span className="ml-16 font-light">The Orcas Valley is a comprehensive platform designed to</span>
+  <span className="ml-16 font-light">The Orcas Valley is a comprehensive platform designed </span>
   <div className="inline-block text-left ">
      {/* empower 
     <span className="text-[#02C4A1] font-light"> early-stage startups and entrepreneurs.</span>
@@ -153,7 +153,7 @@ const Homepage: React.FC = () => {
     our AI-powered pitch deck generator, and connections with angel investors, we provide an 
     <span className="text-[#02C4A1] font-light"> all-in-one package</span> to help founders transform their ideas into 
     <span className="font-light"> successful ventures.</span> */}
-    The Orcas Valley is a comprehensive platform designed specifically for first-time founders and aspiring entrepreneurs. No experience? No problem. We provide clear, step-by-step guidance to transform your ideas into successful startups.
+     specifically for first-time founders and aspiring entrepreneurs. No experience? No problem. We provide clear, step-by-step guidance to transform your ideas into successful startups.
     Our resources include The Orca Blueprint: The Art of Building and Scaling Your Startup, an AI-powered pitch deck generator, competitive angel investment opportunities, and access to an extensive network of angel investors ready to support your growth
     <div className="flex justify-end w-[80%]">
     <img src={group4} alt="Decorative Icon" className="w-6 h-6 md:w-8 md:h-8  " />
@@ -255,9 +255,9 @@ const Homepage: React.FC = () => {
       <img src={vectorLeft3} className="absolute inset-0 w-full h-full object-contain" alt="Vector Left 3" />
 
       {/* Text Centered */}
-      <div className="absolute inset-0 flex items-center justify-center px-6 md:px-16 text-center z-10">
+      <div className="absolute inset-0 flex items-center justify-center px-4 md:px-12 text-center z-10">
         <p className="text-gray-800 text-sm lg:text-sm md:text-base font-light mb-8 md:mb-12">
-          We offer unmatched resources to help even the<br/> most inexperienced entrepreneurs and founders the <br/>world over.
+          We offer unmatched resources to help even the most inexperienced entrepreneurs and founders the world over.
         </p>
       </div>
     </div>
@@ -272,7 +272,7 @@ const Homepage: React.FC = () => {
       {/* Text Centered */}
       <div className="absolute inset-0 flex items-center justify-center px-6 md:px-16 text-center z-10">
         <p className="text-gray-800 text-xs lg:text-sm md:text-base font-light mt-8 md:mt-12">
-          We create unparalleled opportunities that offer you <br/> the greatest chances for growth & success.
+          We create unparalleled opportunities that offer you  the greatest chances for growth & success.
         </p>
       </div>
     </div>
@@ -285,9 +285,9 @@ const Homepage: React.FC = () => {
       <img src={vectorRight3} className="absolute inset-0 w-full h-full object-contain" alt="Vector Right 3" />
 
       {/* Text Centered */}
-      <div className="absolute inset-0 flex items-center justify-center px-6 md:px-16 text-center z-10">
+      <div className="absolute inset-0 flex items-center justify-center px-6 md:px-12 text-center z-10">
         <p className="text-gray-800 text-sm lg:text-sm md:text-base font-light mb-8 md:mb-12">
-          We support founders from the early stages of their startup throughout their journey to becoming established entrepreneurs with guidance, funding, & <br/>everything in between.
+          We support founders from the early stages of their startup throughout their journey to becoming established entrepreneurs with guidance, funding, & everything in between.
         </p>
       </div>
     </div>

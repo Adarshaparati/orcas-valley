@@ -30,10 +30,10 @@ const TermsAndConditions = () => {
   </div>
 
   {/* Side Text (Vertical) */}
-  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
-    <div className="border-l-2 border-gray-300 h-8 sm:h-10 mb-2"></div>
-    <p className="flex flex-col text-center text-[10px] sm:text-xs">
-      <span>T</span>
+  <div className="absolute top-6 left-6 xs:left-2 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+    <div className="border-l-2 border-gray-300 h-6 sm:h-10 mb-1 sm:mb-2"></div>
+    <p className="flex flex-col text-center text-xs">
+    <span>T</span>
       <span>H</span>
       <span>E</span>
       <br />

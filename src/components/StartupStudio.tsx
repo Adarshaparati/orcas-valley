@@ -43,10 +43,10 @@ export default function StartupStudio() {
   </div>
 
   {/* Side Text (Vertical) - Hidden on Mobile */}
-  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
-    <div className="border-l-2 border-gray-300 h-10 mb-2"></div>
+  <div className="absolute top-6 left-6 xs:left-2 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+    <div className="border-l-2 border-gray-300 h-6 sm:h-10 mb-1 sm:mb-2"></div>
     <p className="flex flex-col text-center text-xs">
-      <span>T</span>
+    <span>T</span>
       <span>H</span>
       <span>E</span>
       <br />
@@ -66,9 +66,9 @@ export default function StartupStudio() {
 
 
 {/* Development Kitchen Section */}
-<section className="max-w-6xl mx-auto mt-16 px-6 flex flex-col sm:flex-row items-center">
+<section className="h-[40vh]  w-full mt-16 px-6 flex flex-col md:flex-row  items-center justify-between">
   {/* Left Side - Content */}
-  <div className="w-full sm:w-1/2 text-center sm:text-left mb-8 sm:mb-0">
+  <div className="w-full sm:w-1/2 text-center lg:ml-20 sm:text-left mb-8 sm:mb-0">
     <h2 className="text-3xl sm:text-4xl text-gray-700 font-light">
       Development<br /> <span className="text-[#02C4A1]">Kitchen</span>
     </h2>
@@ -80,25 +80,26 @@ export default function StartupStudio() {
   </div>
 
   {/* Right Side - Image */}
-  <div className="w-full h-full">
-    <img
-      src={imageRight} // Replace with the correct image path
-      alt="Development Kitchen Visual"
-      className="w-full h-full object-cover sm:object-contain rounded-lg"
-    />
-  </div>
+  <div className="w-[60%] h-[100%] lg:h-[120%] sm:w-[70%] xs:w-[80%] lg:w-[60%] sm:mt-10 sm:mb-30 flex sm:justify-center sm:items-center lg:justify-start lg:items-start">
+  <img
+    src={imageRight}
+    alt="Development Kitchen Visual"
+    className="w-full h-full object-contain rounded-lg"
+  />
+</div>
+
 </section>
 
-<section className="max-w-6xl mx-auto px-6 flex flex-col-reverse sm:flex-row items-center mt-8 lg:mt-16">
+<section className="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row  items-center mt-60 xs:mt-70 md:mt-20  lg:mt-16">
   {/* Left Side - Images */}
-  <div className="w-full sm:w-1/2 flex flex-col space-y-6 py-10 items-center sm:items-start">
+  <div className="w-full sm:w-1/2 flex flex-col space-y-6 py-10 items-center ">
     <img src={image1} alt="Step 1" className="w-[70%] sm:w-[50%] h-auto self-start" />
     <img src={image2} alt="Step 2" className="w-[70%] sm:w-[50%] h-auto self-center" />
     <img src={image3} alt="Step 3" className="w-[70%] sm:w-[50%] h-auto self-start" />
   </div>
 
   {/* Right Side - Branding Info */}
-  <div className="w-full sm:w-1/2 text-center sm:text-left mb-8 sm:mb-0">
+  <div className="w-full  sm:w-1/2 text-center sm:text-left mb-8 sm:mb-0 mt-20">
     <h2 className="text-3xl text-[#02C4A1] font-light">Branding</h2>
     <p className="mt-4 font-light text-gray-600">
       Our expert designers and copywriters will offer you the opportunity to build a distinguished 

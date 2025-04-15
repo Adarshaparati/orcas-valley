@@ -23,6 +23,7 @@ import vectorCenter2 from '../../src/assets/Vector-center-2.png'
 import vectorCenter3 from '../../src/assets/vector-center-3.png'
 import layerBlur from '../../src/assets/layer-blur.png'
 import group48 from '../../src/assets/Group 48.png'
+import steps from '../../src/assets/Steps.png'
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 // import bgimage1 from "../../src/assets/StartUpAcc 1.png"
@@ -107,19 +108,19 @@ export default function StartupAccelerator() {
   </div>
 
   {/* Side Text (Vertical) */}
-  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+  <div className="absolute top-6 left-6 xs:left-2 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
     <div className="border-l-2 border-gray-300 h-6 sm:h-10 mb-1 sm:mb-2"></div>
     <p className="flex flex-col text-center text-xs">
-      <span>T</span>
+    <span>T</span>
       <span>H</span>
       <span>E</span>
-      <br className="hidden sm:block" />
+      <br />
       <span>O</span>
       <span>R</span>
       <span>C</span>
       <span>A</span>
       <span>S</span>
-      <br className="hidden sm:block" />
+      <br />
       <span>W</span>
       <span>A</span>
       <span>Y</span>
@@ -148,10 +149,10 @@ export default function StartupAccelerator() {
   <div className="w-full lg:w-[28%] text-center lg:text-left lg:h-full">
     <h2 className="text-gray-700 text-xl sm:text-2xl font-light">Comprehensive Package</h2>
     <p className="text-[rgba(0,0,0,0.64)] text-3xl sm:text-5xl font-light leading-snug mt-3">
-      A full-service <br className="hidden sm:block" /> package designed to
-      <br />
+      A full-service  package designed to 
+      <span> </span>
       <span className="text-teal-500 font-light2">
-        guide startups <br className="hidden sm:block" /> from ideation to funding.
+         guide startups <br className="hidden sm:block" /> from ideation to funding.
       </span>
       
     </p>
@@ -171,7 +172,7 @@ export default function StartupAccelerator() {
   <img 
     src={group53} 
     alt="Comprehensive Package Details" 
-    className="w-full max-w-xs lg:h-[100%] sm:max-w-[80%] sm:h-[80%]  md:max-w-md md:h-full lg:max-w-[80%] justify-center "
+    className="w-full max-w-xs lg:h-[80%] sm:max-w-[80%] sm:h-[80%]  md:max-w-md md:h-full lg:max-w-[60%] justify-center "
   />
 </div>
 </section>
@@ -340,7 +341,7 @@ className="relative flex flex-col lg:flex-row w-[100%] h-[100vh] xs:[140vh] sm:w
 
   {/* Group48 Image - Centered */}
   <div className="mt-8 flex justify-center">
-    <img src={group48} alt="Group 48 Steps" className="w-full lg:max-w-[80%] mx-auto" />
+    <img src={steps} alt="Group 48 Steps" className="w-full lg:max-w-[80%] mx-auto" />
   </div>
 </section>
 

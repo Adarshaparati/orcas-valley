@@ -45,7 +45,7 @@ const AboutUs = () => {
   </div>
 
   {/* Vertical Text - Positioned at Top Left */}
-  <div className="absolute top-6 left-6 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+  <div className="absolute top-6 left-6 xs:left-2 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
     <div className="border-l-2 border-gray-300 h-8 sm:h-10 mb-2"></div>
     <p className="flex flex-col text-center text-xs">
       <span>T</span>
@@ -89,15 +89,15 @@ const AboutUs = () => {
   <h2 className="text-4xl font-light text-gray-600 ">
     What is <br/><span className="text-[#02C4A1] font-medium">Orcas Valley?</span>
   </h2>
-  <p className="text-gray-700 mt-4 leading-relaxed">
+  <p className="text-gray-700 mt-4 leading-relaxed xl:w-[48%]">
     The Orcas Valley was founded to empower entrepreneurs by addressing the challenges of traditional venture models, which often prioritize profit over innovation, leading to stress and failure.
   </p>
 
-  <p className="text-gray-700 mt-4 leading-relaxed">
+  <p className="text-gray-700 mt-1 leading-relaxed xl:w-[48%]">
     Born from personal and professional adversity, our journey provided deep insights into startup struggles—lack of resources, relentless pressure, and systemic roadblocks. We set out to change that.
   </p>
 
-  <p className="text-gray-700 mt-4 leading-relaxed">
+  <p className="text-gray-700 mt-1 leading-relaxed xl:w-[48%]">
     Our mission is to equip founders with the tools to succeed on their own terms, fostering a supportive ecosystem where learning, building, and scaling happen seamlessly. Every entrepreneur deserves the chance to thrive, and we’re committed to making that a reality.
   </p>
   </div>
@@ -113,11 +113,11 @@ const AboutUs = () => {
   />
 
   {/* Content Overlay (Positioned Right) */}
-  <div className="relative z-10 max-w-lg text-right sm:text-left px-4 sm:pr-20 lg:mr-16 md:mr-4 ">
+  <div className="relative z-10 max-w-lg text-right sm:text-left px-4 sm:pr-20 lg:mr-10 md:mr-4 ">
     <h2 className="text-3xl sm:text-4xl font-light">
       What Makes Us<br/> <span className="text-[#02C4A1]">Unique?</span>
     </h2>
-    <p className="text-base sm:text-lg mt-4 leading-relaxed text-white" style={{ opacity: 0.84 }}>
+    {/* <p className="text-base sm:text-lg mt-4 leading-relaxed text-white pr-4" style={{ opacity: 0.84 }}>
       The Orcas Valley is not just an accelerator—it’s a new current. We’re an alternative to 
       traditional venture capitalist models, rejecting the equity-heavy approaches that often 
       leave founders at a disadvantage. Our comprehensive platform provides startup 
@@ -125,6 +125,17 @@ const AboutUs = () => {
       to investors—all designed to help founders learn, pitch, and secure funding without losing 
       control of their vision or jeopardizing it.Traditional accelerators are intimidating, equity-intensive, and often out of reach.
       We built Orcas Valley to remove those barriers—no equity, no unnecessary stress, just practical support
+    </p> */}
+    <p className="text-base sm:text-lg mt-4 leading-relaxed mr-2" style={{ opacity: 0.9 }}>
+      The Orcas Valley is not just an accelerator—it’s a new current. We’re an alternative to traditional venture capitalist models, rejecting the equity-heavy approaches that often leave founders at a disadvantage.
+    </p>
+
+    <p className="text-base sm:text-lg  leading-relaxed mr-2" style={{ opacity: 0.9 }}>
+      Our comprehensive platform provides startup resources—from The Orca Blueprint eBook and AI-powered pitch deck generator to access to investors—all designed to help founders learn, pitch, and secure funding without losing control of their vision.
+    </p>
+
+    <p className="text-base sm:text-lg  leading-relaxed mr-2" style={{ opacity: 0.9 }}>
+      Traditional accelerators are intimidating, equity-intensive, and often out of reach. We built Orcas Valley to remove those barriers—no equity, no unnecessary stress, just practical support.
     </p>
   </div>
 </section>

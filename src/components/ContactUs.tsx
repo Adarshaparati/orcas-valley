@@ -50,12 +50,22 @@ const ContactUs = () => {
   </div>
 
   {/* Side Text (Vertical) - Only Visible on Desktop */}
-  <div className="absolute top-10 left-10 z-20 px-5 hidden sm:flex flex-col items-center text-gray-300 text-lg tracking-widest">
-    <div className="border-l-2 border-gray-300 h-10 mb-2"></div>
+  <div className="absolute top-6 left-6 xs:left-2 sm:top-10 sm:left-10 z-20 px-5 flex flex-col items-center text-gray-300 text-lg tracking-widest  sm:flex">
+    <div className="border-l-2 border-gray-300 h-6 sm:h-10 mb-1 sm:mb-2"></div>
     <p className="flex flex-col text-center text-xs">
-      <span>T</span><span>H</span><span>E</span><br />
-      <span>O</span><span>R</span><span>C</span><span>A</span><span>S</span><br />
-      <span>W</span><span>A</span><span>Y</span>
+    <span>T</span>
+      <span>H</span>
+      <span>E</span>
+      <br />
+      <span>O</span>
+      <span>R</span>
+      <span>C</span>
+      <span>A</span>
+      <span>S</span>
+      <br />
+      <span>W</span>
+      <span>A</span>
+      <span>Y</span>
     </p>
   </div>
 </header>
